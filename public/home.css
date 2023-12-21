@@ -1,0 +1,22 @@
+.product-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-table tr.even {
+  background-color: #f9f9f9;
+}
+
+.product-table tr.odd {
+  background-color: #ffffff;
+}
